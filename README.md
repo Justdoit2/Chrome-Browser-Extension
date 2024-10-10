@@ -18,4 +18,9 @@ Technical Implementation
 
   -useCallback: Optimizes the mark-as-read functionality to prevent unnecessary re-renders.
   
+  -Mock API Endpoint: Simulates an API endpoint to provide messages in JSON format, ensuring realistic data handling.
+  
+  -Chrome Storage API: Persists message state locally, allowing for efficient data management.
+  
+  
 
