@@ -12,4 +12,10 @@ Features
 
 Technical Implementation
   -
+  -useState: Manages the state of messages within the popup component.
+
+  -useEffect: Fetches and updates messages from Chrome's storage on component mount.
+
+  -useCallback: Optimizes the mark-as-read functionality to prevent unnecessary re-renders.
+  
 
