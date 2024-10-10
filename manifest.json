@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Organization Messages",
+  "version": "1.0",
+  "description": "Display messages from admin to users",
+  "permissions": [
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup/popup.html"
+  }
+}
